@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>علاء حبيب | باحث في وثوقية الاتصالات والذكاء الاصطناعي</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3498db;
+            --accent: #e74c3c;
+            --light: #ecf0f1;
+            --dark: #2c3e50;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        /* الهيدر */
+        .header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .header .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        /* التنقل */
+        .navbar {
+            background: var(--dark);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 2rem;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        .nav-links a:hover {
+            color: var(--secondary);
+        }
+        
+        /* الأقسام */
+        .section {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 3rem;
+            color: var(--primary);
+            font-size: 2rem;
+        }
+        
+        /* البطاقات */
+        .card {
+            background: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 1rem 0;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-right: 4px solid var(--secondary);
+        }
+        
+        /* الشبكات */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        /* الفوتر */
+        .footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- الهيدر -->
+    <header class="header">
+        <h1>علاء حبيب</h1>
+        <div class="subtitle">مهندس وباحث أكاديمي في علوم الاتصالات والذكاء الاصطناعي</div>
+    </header>
+
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#about">سيرتي</a></li>
+            <li><a href="#research">أبحاثي</a></li>
+            <li><a href="#services">خدماتي</a></li>
+            <li><a href="#skills">مهاراتي</a></li>
+            <li><a href="#contact">اتصل بي</a></li>
+        </ul>
+    </nav>
+
+    <!-- القسم الرئيسي -->
+    <section id="home" class="section">
+        <div class="card">
+            <h2>مرحباً بك في محفظتي الأكاديمية</h2>
+            <p>أنا باحث متخصص في تطوير نماذج الذكاء الاصطناعي لتحسين وثوقية الأنظمة الإلكترونية والاتصالات. 
+               أجمع بين الخبرة العملية في هندسة الاتصالات والبحث الأكاديمي المتقدم.</p>
+        </div>
+    </section>
+
+    <!-- قسم السيرة -->
+    <section id="about" class="section">
+        <h2 class="section-title">سيرتي الذاتية</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>👨‍🎓 الخلفية الأكاديمية</h3>
+                <ul>
+                    <li>طالب دكتوراه في مجال تحليل الوثوقية بالذكاء الاصطناعي</li>
+                    <li>ماجستير في هندسة الاتصالات</li>
+                    <li>إجازة في الهندسة الكهربائية - إلكترونيات</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>💼 الخبرة العملية</h3>
+                <ul>
+                    <li>مهندس اتصالات في الشركة السورية للاتصالات</li>
+                    <li>باحث ومعد أبحاث علمية متخصصة</li>
+                    <li>خبرة في كتابة المقالات العلمية المحكمة</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الأبحاث -->
+    <section id="research" class="section">
+        <h2 class="section-title">أبحاثي العلمية</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Designing a Fault tolerance system in Image sensor (APS)</h3>
+                <p>تصميم نظام تحمل أعطاء لمستشعرات الصور باستخدام تقنية TMR المتطورة...</p>
+            </div>
+            <div class="card">
+                <h3>General model for reliability calculation improvement</h3>
+                <p>نموذج عام لتحسين حسابات الوثوقية في الأنظمة الإلكترونية...</p>
+            </div>
+            <div class="card">
+                <h3>Reliability in cellular communications using Fuzzy Logic</h3>
+                <p>تحسين حسابات الوثوقية في محطات الاتصالات الخلوية...</p>
+            </div>
+            <div class="card">
+                <h3>Improving fuzzy distribution using intuitionistic fuzzy sets</h3>
+                <p>تطوير التوزيع الضبابي باستخدام المجموعات الضبابية الحدسية...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الخدمات -->
+    <section id="services" class="section">
+        <h2 class="section-title">الخدمات الأكاديمية</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>📝 الكتابة العلمية</h3>
+                <p>كتابة الأبحاث والمقالات العلمية في تخصصات الاتصالات والذكاء الاصطناعي</p>
+            </div>
+            <div class="card">
+                <h3>👨‍🏫 الإشراف الأكاديمي</h3>
+                <p>توجيه طلاب الدراسات العليا وإشراف على الأبحاث العلمية</p>
+            </div>
+            <div class="card">
+                <h3>🔧 الاستشارات التقنية</h3>
+                <p>استشارات في مجال وثوقية الأنظمة وتطبيقات الذكاء الاصطناعي</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المهارات -->
+    <section id="skills" class="section">
+        <h2 class="section-title">المهارات والتخصصات</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>🛠️ المهارات التقنية</h3>
+                <ul>
+                    <li>هندسة الاتصالات والإلكترونيات</li>
+                    <li>تحليل الوثوقية والإعتمادية</li>
+                    <li>تقنيات الذكاء الاصطناعي</li>
+                    <li>Fuzzy Logic & Intuitionistic Fuzzy Sets</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>🌐 اللغات</h3>
+                <ul>
+                    <li>العربية (اللغة الأم)</li>
+                    <li>الإنجليزية (متقدم)</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الاتصال -->
+    <section id="contact" class="section">
+        <h2 class="section-title">اتصل بي</h2>
+        <div class="card">
+            <p>📧 البريد الإلكتروني: [سيضاف لاحقاً]</p>
+            <p>📱 الهاتف: [سيضاف لاحقاً]</p>
+            <p>💼 LinkedIn: [سيضاف لاحقاً]</p>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer class="footer">
+        <p>© 2024 علاء حبيب - جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script>
+        // Smooth scroll for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
